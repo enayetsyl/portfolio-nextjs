@@ -1,9 +1,15 @@
-import Image from "next/image";
+
+import Banner from "./components/Banner";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+
 
 export default function Home() {
   return (
    <>
-   <h1 className="text-4xl font-bold"></h1>
+  <Banner/>
+  <Projects/>
+  <Skills/>
    </>
   );
 }
