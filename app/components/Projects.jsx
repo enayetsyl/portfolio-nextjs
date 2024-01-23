@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Projects = () => {
   return (
-    <div className='my-10'>
+    <div >
       <h1 className='text-6xl py-5 mb-5'>Projects<span className='text-signature'>.</span></h1>
      {/* first */}
       <div className='flex flex-col lg:flex-row justify-center items-center lg:gap-5'>
