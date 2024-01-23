@@ -9,7 +9,7 @@ const Navbar = () => {
   
   return (
     <>
-    <div className='flex justify-between  items-center mt-7 relative'>
+    <div className='flex justify-between  items-center mt-7 relative border-b border-signature pb-4'>
       {/* logo */}
       <h3 className='text-primary_text text-4xl font-bold'>Enayet <span className='text-signature'>.</span></h3>
 
