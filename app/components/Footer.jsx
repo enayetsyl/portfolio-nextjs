@@ -6,7 +6,7 @@ import { FiTwitter } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div className='border-t border-signature py-5 mt-10 flex justify-between items-center'>
+    <div className='border-t border-signature py-5 mt-10 flex flex-col md:flex-row justify-between items-center gap-5'>
       <div className='flex justify-center items-center gap-10'>
       <Link href='/' target='_blank'>Home</Link>
           <Link href='/projects' target='_blank'>Projects</Link>
